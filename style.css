@@ -1,1 +1,8 @@
-
+ body {
+    font-family: Helvetica,Arial, sans-serif;
+    text-align: left;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: rgb(215, 207, 202);
+    font-size: 24px;
+  }
