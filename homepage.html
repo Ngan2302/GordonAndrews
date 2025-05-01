@@ -1,22 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <title>My first web page</title>
-        <meta charset="utf-8">
-    </head>
-    <body
-         <a href="#home">Home</a>
-        <a href="#slideshow">Definition</a>
-        <a href="#timeline">Numbers</a>
-        <a href="#advices">What to do</a>
-        
-        <h1>Collection of Gordon Andrews</h1>
-        <p>This is a basic web page.</p>
-        <p>Gordon Andrews (1914–2001) was an influential Australian designer whose work spanned multiple disciplines, including industrial design, graphic design, and exhibition design. Born in Sydney, Andrews initially trained as an artist before transitioning into design, where he became a pivotal figure in shaping modern Australian visual culture. His career began in the 1930s, and by the post-war period, he had established himself as a leading designer, working on projects both domestically and internationally.
+  <head>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Gordon Andrews</title>
+    <meta charset="utf-8" />
 
-Andrews was deeply interested in modernist principles, and his work often reflected a fusion of functionality and aesthetic innovation. He was particularly influenced by European and Scandinavian design movements, which he encountered during his travels. These experiences broadened his perspective and contributed to his reputation as a forward-thinking designer in Australia.
-        </p
-            
-    </body>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <div class="homepage">
+      <div class="navigation">
+        <div class="logo"><img src="assets/images/GAlogo.png" /></div>
+        <div id="myLinks">
+        <a href="homepage.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="catalogues.html">Catalogues</a>
+        <a href="banknote.html">Banknotes</a>
+        <a href="furniture.html">Furniture</a>
+        <a href="mockup.html">Mockup</a>
+        <a href="signage.html">Signage</a>
+      </div>
+
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+      <div class="intro">
+        <h1>Collection of Gordon Andrews</h1>
+        <div class="ga">
+          Gordon Andrews (1914–2001) was an influential Australian designer
+          whose work spanned multiple disciplines, including industrial design,
+          graphic design,<span id="dots">...</span><span id="more"> and exhibition design. Born in Sydney, Andrews
+          initially trained as an artist before transitioning into design, where
+          he became a pivotal figure in shaping modern Australian visual
+          culture. His career began in the 1930s, and by the post-war period, he
+          had established himself as a leading designer, working on projects
+          both domestically and internationally. Andrews was deeply interested
+          in modernist principles, and his work often reflected a fusion of
+          functionality and aesthetic innovation. He was particularly influenced
+          by European and Scandinavian design movements, which he encountered
+          during his travels. These experiences broadened his perspective and
+          contributed to his reputation as a forward-thinking designer in
+          Australia.</span>
+          <button onclick="myfunction()" id="myBtn">Read more</button>
+        </div>
+
+
+        
+      </div>
+      <h1>In our website</h1>
+      <div class="row">
+        <div class="col">
+          <img src="assets/images/gordon A homepage.png" />
+        </div>
+        <div class="col">
+          <br /><br />
+          <h2>Gordon Andrews’s biography and influences</h2>
+          <a href="about.html"
+            ><img src="assets/images/arrow.png" style="width: 300px"
+          /></a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <h2>Gordon Andrews’s catalogues collection</h2>
+          <a href="catalogues.html"
+            ><img src="assets/images/arrow.png" style="width: 300px"
+          /></a>
+        </div>
+        <div class="col">
+          <img src="assets/images/david-jones-catalo.jpeg" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <img src="assets/images/andrews-powerhouse-6.jpeg" />
+        </div>
+        <div class="col">
+          <h2>Gordon Andrews’s furniture and interior design</h2>
+          <a href="furniture.html"
+            ><img src="assets/images/arrow.png" style="width: 300px"
+          /></a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <h2>Gordon Andrews’s environmental and signage design</h2>
+          <a href="signage.html"
+            ><img src="assets/images/arrow.png" style="width: 300px"
+          /></a>
+        </div>
+        <div class="col">
+          <img src="assets/images/GAsignage.avif" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <img src="assets/images/$2.jpeg" />
+        </div>
+        <div class="col">
+          <h2>Gordon Andrews’s Australian Decimal Banknote design</h2>
+          <a href="banknote.html"
+            ><img src="assets/images/arrow.png" style="width: 300px"
+          /></a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <h2>Gordon Andrews’s letter and mockup design</h2>
+          <a href="mockup.html"
+            ><img src="assets/images/arrow.png" style="width: 300px"
+          /></a>
+        </div>
+        <div class="col">
+          <img src="assets/images/mockup-2.jpeg" />
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+          <div class="end_logo"><img src="assets/images/GAlogo.png " /></div>
+          <div class="end"><h2>Collection of <br />Gordon Andrews</h2></div>
+      <p>This website was produced by students in the Faculty of Arts & Design, University of Canberra, 2025</p>
+    </div>
+  </div>
+    <script src="nav.js"></script>
+    <script src="readmore.js"></script>
+  </body>
 </html>
