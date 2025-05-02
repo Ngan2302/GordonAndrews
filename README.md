@@ -5,3 +5,30 @@ However, the hardest part is the breakpoint, which is not just about screen size
 However, although the desktop prototype has been recreated quite the same, the mobile version is not as successful. Because of the grid system being too complex with too much class, the clashing of code made the changing of the h2 and h3 text ineffective. As h2 and h3 in screen size changed, some homepage and about page images could not be seen, which brought the inconsistency.  With the using a three column grid in the desktop version, it would be hard to change it into a two column grid. Despite text and aligning code has been used, because the image, content and footer is highly affected.
 Because the use of grid and column take an important part in recreating the prototype, both fixing or deleting it would still be a hard choice. The website might not be successfully responsive, css system still takes an important part in the website stylizing, from the change of background colour to the breakpoint navigation and button styling. The website might not successfully break as planned but still partly responsive.
 This project does not just give me more knowledge and experience in coding but helps me understand the working of a responsive website. The project also helps me to understand choosing a simple layout and also helps bring the website’s effectiveness. By knowing the working of breakpoint, my next design could be minimised for easy to control but also suitable for different screen sizes. Although the result of my website could not be said as successful, it still successfully brings the vintage but minimalistic style of Gordon Andrew. 
+
+Coding source:
+https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+https://www.w3schools.com/howto/howto_js_read_more.asp
+
+Image source:
+https://collection.powerhouse.com.au/object/99658
+https://collection.powerhouse.com.au/object/96268
+https://collection.powerhouse.com.au/object/99960
+https://collection.powerhouse.com.au/object/141505
+https://collection.powerhouse.com.au/object/99906
+https://collection.powerhouse.com.au/object/99944
+https://collection.powerhouse.com.au/object/86427
+https://collection.powerhouse.com.au/object/99876
+https://collection.powerhouse.com.au/object/143508
+https://collection.powerhouse.com.au/object/99908
+https://collection.powerhouse.com.au/object/100363
+https://collection.powerhouse.com.au/object/100440
+https://collection.powerhouse.com.au/object/100434
+https://collection.powerhouse.com.au/object/100436
+https://collection.powerhouse.com.au/object/100438
+https://collection.powerhouse.com.au/object/100441
+https://collection.powerhouse.com.au/object/100432
+https://collection.powerhouse.com.au/object/305292
+https://collection.powerhouse.com.au/object/384268
+https://collection.powerhouse.com.au/object/81898
+
